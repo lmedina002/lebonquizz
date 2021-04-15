@@ -1,0 +1,84 @@
+* {
+	font-weight: bold;
+}
+html, body {
+    height: 100%;
+}
+body{
+    background-color: #ff6600;
+    min-height: 100%;
+}
+h1 {
+	font-family: Lobster, Open Sans, Arial;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 100px;
+	padding-top: 50px;
+}
+#formu {
+	flex-basis: 100%;
+	text-align: center;
+	width: 100%;
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.bouton {
+	border-radius: 5px;
+	margin-right: 20px;
+	margin-left: 20px;
+	background-color: #666666;
+	color: white;
+}
+.bouton:hover {
+	background-color: #4d4d4d;
+}
+.bouton-parcours {
+	background-color: #666666;
+	color: white;
+	border-radius: 5px;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.bouton-parcours:hover {
+	background-color: #4d4d4d;
+}
+.parcours {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+input {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.retour{
+	justify-content: right;
+	font-weight: bold;
+	margin-left: 10px;
+	color: white
+}
+.retour:hover{
+	color: grey;
+}
+footer {
+	position: absolute;
+    bottom: 0px;
+    background-color: #666666;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 80%;
+}
+#main{
+    min-height:100%;
+    margin:0 auto;
+    position:relative;
+}

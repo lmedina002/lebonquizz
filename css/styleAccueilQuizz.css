@@ -1,0 +1,97 @@
+html, body {
+    height: 100%;
+}
+body{
+    background-color: #ff6600;
+    min-height: 100%;
+}
+#conteneur{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-row-gap: 2ch;
+    column-gap: 2ch;
+}
+.options{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.texte{
+    width: 20%;
+    align-self: center;
+    justify-content: center;
+    margin: auto;
+}
+h1 {
+    font-family: Lobster, Open Sans, Arial;
+    font-weight: bold;
+    text-align: center; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p {
+    margin :auto;
+}
+.quest {
+    border: none;
+    color:white;
+    font-weight: bold;
+    display: flex;
+    width:30%;
+    height: 150px;
+    background-color: #666666;
+    border-radius:10px;
+}
+.quest:hover{
+    color: lightgray;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    background:#999999;
+}
+.retour{
+    justify-content: right;
+    font-weight: bold;
+    margin-left: 10px;
+    color:white;
+}
+.choix {
+    font-weight: bold;
+}
+.titre {
+    font-family: Lobster, Open Sans, Arial;
+    font-weight: bold;
+    text-align: center;
+    color: #262626;
+}
+.titre:hover {
+    color: #404040;
+}
+.retour:hover{
+    color: grey;
+}
+footer {
+    margin-top: 50px;
+    position: absolute;
+    background-color: #666666;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 80%;
+}
+#main{
+    min-height:100%;
+    margin:0 auto;
+    position:relative;
+}

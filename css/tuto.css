@@ -1,0 +1,44 @@
+body {
+  background-color: #ff6600;
+  min-height: 100%;
+}
+html, body {
+    height: 100%;
+}
+object {
+  display:block;
+  margin:auto;
+  width:90%;
+  height:1000px;
+}
+h1 {
+  font-family: Lobster, Open Sans, Arial;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+}
+.retour{
+  justify-content: right;
+  font-weight: bold;
+  margin-left: 10px;
+  color: white
+}
+.retour:hover{
+  color: grey;
+}
+footer {
+  position: absolute;
+    bottom: 0px;
+    background-color: #666666;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 80%;
+}
+#main{
+    min-height:100%;
+    margin:0 auto;
+    position:relative;
+}

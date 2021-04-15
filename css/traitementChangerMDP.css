@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+}
+body{
+    background-color: #ff6600;
+    min-height: 100%;
+}
+* {
+	font-weight: bold;
+}
+h1 {
+	font-family: Lobster, Open Sans, Arial;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 100px;
+	padding-top: 50px;
+}
+h2 {
+	font-family: Lobster, Open Sans, Arial;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 70px;
+	padding-top: 50px;
+}
+a {
+	color: white;
+	font-size: 130%;
+}
+a:hover{
+	color: grey;
+}
+.div {
+	display: flex;
+    justify-content: center;
+}
+footer {
+	position: absolute;
+    bottom: 0px;
+    background-color: #666666;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 80%;
+}
+#main{
+    min-height:100%;
+    margin:0 auto;
+    position:relative;
+}
